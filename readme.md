@@ -30,8 +30,7 @@ To get started with this project, follow these steps:
     java -jar IpAddrCounter-0.0.1-SNAPSHOT.jar <filename> [threads]
     ```
 
-   Replace `<filename>` with the path to the file containing IP addresses and
-replace `[threads]` with the number of worker threads
+   Replace `<filename>` with the path to the file containing IP addresses and optional `[threads]` with the number of worker threads default value is 4.
 
 ## Usage
 
