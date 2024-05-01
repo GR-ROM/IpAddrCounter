@@ -15,7 +15,7 @@ To get started with this project, follow these steps:
 2. Navigate to the project directory:
 
     ```bash
-    cd unique-ip-counter
+    cd IpAddrCounter
     ```
 
 3. Compile the Java code:
