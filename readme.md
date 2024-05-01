@@ -21,16 +21,17 @@ To get started with this project, follow these steps:
 3. Compile the Java code:
 
     ```bash
-    javac Main.java
+    gradle build jar
     ```
 
 4. Run the application:
 
     ```bash
-    java Main <filename>
+    java -jar IpAddrCounter-0.0.1-SNAPSHOT.jar <filename> [threads]
     ```
 
-   Replace `<filename>` with the path to the file containing IP addresses.
+   Replace `<filename>` with the path to the file containing IP addresses and
+replace `[threads]` with the number of worker threads
 
 ## Usage
 
@@ -39,4 +40,4 @@ This application takes a text file containing IP addresses as input and prints t
 Example usage:
 
 ```bash
-java IpAddrCounterApplication <filename> [number of worker threads]
+java -jar IpAddrCounter-0.0.1-SNAPSHOT.jar input.txt 16 
